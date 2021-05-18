@@ -1,0 +1,9 @@
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\bin\Debug\netstandard2.0\JurosApi.Domain.deps.json
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\bin\Debug\netstandard2.0\JurosApi.Domain.dll
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\bin\Debug\netstandard2.0\JurosApi.Domain.pdb
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\obj\Debug\netstandard2.0\JurosApi.Domain.csprojAssemblyReference.cache
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\obj\Debug\netstandard2.0\JurosApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\obj\Debug\netstandard2.0\JurosApi.Domain.AssemblyInfo.cs
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\obj\Debug\netstandard2.0\JurosApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\obj\Debug\netstandard2.0\JurosApi.Domain.dll
+C:\Users\Maurilio\Desktop\Projetos\Soft\JurosApi\JurosApi.Domain\obj\Debug\netstandard2.0\JurosApi.Domain.pdb

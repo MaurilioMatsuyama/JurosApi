@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JurosApi", "JurosApi\JurosApi.csproj", "{40F16523-805A-4C15-9953-048AEC96A391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JurosApi.Domain", "JurosApi.Domain\JurosApi.Domain.csproj", "{7E67A3E9-3C31-4536-AE74-8894D4BC38CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F16523-805A-4C15-9953-048AEC96A391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F16523-805A-4C15-9953-048AEC96A391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F16523-805A-4C15-9953-048AEC96A391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F16523-805A-4C15-9953-048AEC96A391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E67A3E9-3C31-4536-AE74-8894D4BC38CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E67A3E9-3C31-4536-AE74-8894D4BC38CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E67A3E9-3C31-4536-AE74-8894D4BC38CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E67A3E9-3C31-4536-AE74-8894D4BC38CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1705D7F-B7CB-45CC-A976-3AF50134B0C3}
+	EndGlobalSection
+EndGlobal
