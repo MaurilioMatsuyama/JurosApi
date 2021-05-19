@@ -33,7 +33,7 @@ namespace JurosApi
                         Contact = new Microsoft.OpenApi.Models.OpenApiContact
                         {
                             Name = "Maurílio Matsuyama",
-                            Url = new System.Uri("https://github.com/mauriliomatsuyama/")
+                            Url = new System.Uri("https://github.com/MaurilioMatsuyama/JurosApi")
                         }
                     });
             });

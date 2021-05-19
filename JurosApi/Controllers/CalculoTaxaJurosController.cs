@@ -1,6 +1,8 @@
 ﻿using JurosApi.Domain.Interfaces;
 using JurosApi.Domain.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Net.Http;
 
 namespace JurosApi.Controllers
 {
@@ -18,16 +20,32 @@ namespace JurosApi.Controllers
         [HttpGet("/calculajuros")]
         public CalculoJurosViewModel CalculaJuros([FromQuery] decimal valorinicial, [FromQuery] int meses)
         {
-            var vm = _jurosService.CalculoJuros(valorInicial: valorinicial, meses: meses);
-            return vm;
+            try
+            {
+                var vm = _jurosService.CalculoJuros(valorInicial: valorinicial, meses: meses);
+                return vm;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro no cálculo de juros. Erro interno: { ex.Message }");
+
+            }
         }
 
 
         [HttpGet("/showmethecode")]
         public TaxaJurosViewModel ShowMeTheCode()
         {
-            var vm = _jurosService.TaxaJuros();
-            return vm;
+            try
+            {
+
+                var vm = _jurosService.TaxaJuros();
+                return vm;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao retornar o caminho do código fonte. Erro interno: { ex.Message }");
+            }
         }
     }
 }

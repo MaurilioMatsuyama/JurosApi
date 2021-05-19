@@ -1,6 +1,7 @@
 ﻿using JurosApi.Domain.Interfaces;
 using JurosApi.Domain.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace JurosApi.Controllers
 {
@@ -18,8 +19,15 @@ namespace JurosApi.Controllers
         [HttpGet("/taxaJuros")]
         public TaxaJurosViewModel RetornaTaxaJuros()
         {
-            var vm = _jurosService.TaxaJuros();
-            return vm;
+            try
+            {
+                var vm = _jurosService.TaxaJuros();
+                return vm;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Erro ao retornar a taxa de juros. Erro interno: {ex.Message}");
+            }
         }
     }
 }

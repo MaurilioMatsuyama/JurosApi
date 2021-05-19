@@ -7,5 +7,7 @@ namespace JurosApi.Domain.Interfaces
         TaxaJurosViewModel TaxaJuros();
 
         CalculoJurosViewModel CalculoJuros(decimal valorInicial, decimal meses);
+
+        ShowMeTheCodeViewModel ShowMeTheCode();
     }
 }
