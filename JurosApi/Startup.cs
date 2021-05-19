@@ -53,8 +53,6 @@ namespace JurosApi
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Cálculo de Juros");
             });
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseAuthorization();
